@@ -1,2 +1,2 @@
-# strongest-in-the-universe
-Project for my science class
+과학 선생님 짱
+

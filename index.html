@@ -1,0 +1,471 @@
+<!doctype html>
+<html lang="kr" dir="ltr">
+  <head>
+  <meta charset="UTF-8">
+  <title>Made by me!!</title>
+  <link rel="stylesheet" href="style.css">
+  <script>
+    function make() {
+      var val = '[VOID-val]';
+      var val2 = '[VOID-val2]';
+      var rand = 0;
+      var rand_diff = 0;
+      rand_diff = Math.floor(Math.random() * 3);
+      if ( rand_diff == 1 ) {
+        rand = Math.floor(Math.random() * 40);
+      }
+      else {
+        rand = Math.floor(Math.random() * 30);
+      }
+      //val = rand_diff+'<br>'+rand+'<br>';
+      switch(rand_diff) {
+        case 0: //상
+          switch(rand) {
+            case 0:
+              val = '눈의 가장 바깥쪽';
+              val2 = '공막';
+              break;
+            case 1:
+              val = '공막의 일부가 면한 것으로 눈의 가장 앞쪽에 있어 빛이 통과하는 막';
+              val2 = '각막';
+              break;
+            case 2:
+              val = '공막 안쪽에 있으며 멜라닌 색소가 많아 검은색을 띄는 막';
+              val2 = '맥락막';
+              break;
+            case 3:
+              val = '동공 이외에 눈 안으로 들어오는 빛을 차단하는 막';
+              val2 = '맥락막';
+              break;
+	      		case 4:
+              val = '맥락막 안쪽에 있으며 물체의 상이 맺히는 막';
+              val2 = '망막';
+              break;
+            case 5:
+              val = '빛의 자극으로 받아들이는 시각세포가 분포하는 막';
+              val2 = '망막';
+              break;
+            case 6:
+              val = '시각세포 중 명암을 구분하는 세포는?';
+              val2 = '막대세포';
+              break;
+            case 7:
+              val = '시각세포 중 색을 구분하는 세포는?';
+              val2 = '원뿔세포';
+              break;
+		      	case 8:
+              val = '망막에서 시각세포가 가장 많이 분포하는 부분은?';
+              val2 = '황반';
+              break;
+            case 9:
+              val = '이 곳에 물체가 상이 맺히면 선명하게 보인다. 이곳은 어디인가?';
+              val2 = '황반';
+              break;
+            case 10:
+              val = '시각신경이 모여 나가는 부분은?';
+              val2 = '맹점';
+              break;
+		      	case 11:
+              val = '시각세포가 없어 이곳에 물체의 상이 맺히면 보이지 않는다. 이곳은 어디인가?';
+              val2 = '맹점';
+              break;
+            case 12:
+              val = '섬모체 근육의 운동으로 물체와의 거리에 따라 수정체의 (&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;)가 조절된다.';
+              val2 = '두께';
+              break;
+            case 13:
+              val = '수정체는 탄력이 있는 두꺼운 (&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;)렌즈이다.';
+              val2 = '볼록';
+              break;
+		      	case 14:
+              val = '수정체는 빛을 (&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;)시킨다.';
+              val2 = '굴절';
+              break;
+            case 15:
+              val = '수정체의 앞부분에 있으며 동공의 크기를 변화시켜 눈 안으로 들어오는 빛의 양을 조절하는 것은?';
+              val2 = '홍채';
+              break;
+            case 16:
+              val = '눈 속을 채우고 있는 투명한 액체는?';
+              val2 = '유리체';
+              break;
+            case 17:
+              val = '밝을 때 홍채는?';
+              val2 = '넓어진다.';
+              break;
+		      	case 18:
+              val = '밝을 떄 동공의 크기는? (선생님 오타났어요)';
+              val2 = '작아진다.';
+              break;
+            case 19:
+              val = '어두울 때 홍채의 면적은?';
+              val2 = '좁아진다.';
+              break;
+		      	case 20:
+              val = '어두울 때 동공의 크기는?';
+              val2 = '커진다.';
+              break;
+		      	case 21:
+              val = '물체와의 거리가 가까울 때 섬모체는? (수축 / 이완)';
+              val2 = '수축';
+              break;
+            case 22:
+              val = '물체와의 거리가 멀 때 섬모체는? (수축 / 이완)';
+              val2 = '이완';
+              break;
+            case 23:
+              val = '물체와의 거리가 가까울 때 진대는? (느슨 / 팽팽)';
+              val2 = '느슨';
+              break;
+		      	case 24:
+              val = '물체와의 걸리가 멀 때 진대는? (느슨 / 팽팽)';
+              val2 = '팽팽';
+              break;
+            case 25:
+              val = '물체와의 거리가 가까울 때 수정체의 두께는?(두꺼워짐 / 얇아짐)';
+              val2 = '두꺼워짐';
+              break;
+            case 26:
+              val = '물체와의 거리가 멀 때 수정체의 두께는? (두꺼워짐 / 얇아짐)';
+              val2 = '얇아짐';
+              break;
+            case 27:
+              val = '물체를 보는 과정은 빛 자극 ->(&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;) -> (&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;) -> 유리체 -> 망막(시각세포) -> 시각신경 -> 대뇌';
+              val2 = '각막->수정체';
+              break;
+	      		case 28:
+              val = '눈의 흰자위에 해당하는 것은?';
+              val2 = '공막';
+              break;
+            case 29:
+              val = '홍채의 바깥을 감싸는 투명한 막은?';
+              val2 = '각막';
+              break;
+          }
+          break;
+        case 1: //중
+          switch(rand) {
+          case 0:
+            val = '동공의 크기를 조절하는 것은?';
+            val2 = '홍채';
+            break;
+          case 1:
+            val = '빛이 눈 안으로 들어가는 부분';
+            val2 = '동공';
+            break;
+          case 2:
+            val = '볼록 렌즈 모양으로 빛을 굴절시키는 것은?';
+            val2 = '수정체';
+            break;
+          case 3:
+            val = '수정체의 두께를 조절하는 것은?';
+            val2 = '섬모체';
+            break;
+          case 4:
+            val = '눈 안을 채우고 있는 투명한 물질은?';
+            val2 = '유리체';
+            break;
+          case 5:
+            val = '검은색 색소가 있어 눈 속을 어둡게 하는 것은?';
+            val2 = '맥락막';
+            break;
+          case 6:
+            val = '시각세포가 분포하여 상이 맺히는 부분은?';
+            val2 = '망막';
+            break;
+          case 7:
+            val = '시각세포에서 받아들인 자극은 (&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;)로 전달한다.';
+            val2 = '대뇌';
+            break;
+          case 8:
+            val = '시각 신경이 모여 나가는 부분으로 시각세포가 없어 상이 맺히더라도 볼 수 없는 부분은?';
+            val2 = '맹점';
+            break;
+          case 9:
+            val = '시각세포가 많이 모여 있는 부분으로 이곳에 상이 맺히면 상이 선명하게 보이는 부분은?';
+            val2 = '황반';
+            break;
+          case 10:
+            val = '가까운 곳을 볼 때 수정체는 (&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;)';
+            val2 = '두꺼워진다.';
+            break;
+          case 11:
+            val = '먼 곳을 볼 때 수정체는 (&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;)';
+            val2 = '얇아진다.';
+            break;
+          case 12:
+            val = '어두울 때 동공의 크기는 (&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;)';
+            val2 = '커진다.';
+            break;
+          case 13:
+            val = '어두울 때 홍채의 면적은 (&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;)';
+            val2 = '좁아진다.';
+            break;
+          case 14:
+            val = '어두운 터널로 들어가면 동공의 크기는 (&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;)';
+            val2 = '커진다.';
+            break;
+          case 15:
+            val = '밝은 곳으로 나오면 동공의 크기는 (&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;)';
+            val2 = '작아진다.';
+            break;
+          case 16:
+            val = '어두운 터널로 들어가면 홍채의 면적은 (&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;)';
+            val2 = '좁아진다.';
+            break;
+          case 17:
+            val = '밝은 곳으로 나오면 홍채의 면적은 (&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;)';
+            val2 = '넓어진다.';
+            break;
+          case 18:
+            val = '먼 산을 보다가 가까운 책을 보면 수정체의 두께는 (&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;)';
+            val2 = '두꺼워진다..';
+            break;
+          case 19:
+            val = '책을 보다 먼 산을 보면 수정체는 (&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;)';
+            val2 = '얇아진다.';
+            break;
+          case 20:
+            val = '소리는 모으는 것은?';
+            val2 = '귓바퀴.';
+            break;
+          case 21:
+            val = '귓바퀴와 고막 사이의 통로는?';
+            val2 = '외이도';
+            break;
+          case 22:
+            val = '얇은 막으로 소리 자극을 받아 진동하는 것은?';
+            val2 = '고막';
+            break;
+          case 23:
+            val = '세개의 작은 뼈로 고막의 진동을 증폭하는 것은?';
+            val2 = '귓속뼈';
+            break;
+          case 24:
+            val = '목구멍과 연결되어 있는 관';
+            val2 = '귀인두관';
+            break;
+          case 25:
+            val = '몸의 회전을 감지';
+            val2 = '반고리관';
+            break;
+          case 26:
+            val = '몸의 기울어짐 감지';
+            val2 = '전정기관';
+            break;
+          case 27:
+            val = '청각세포 분포';
+            val2 = '달팽이관';
+            break;
+          case 28:
+            val = '고막 안쪽과 바깥쪽의 압력을 같게 조절';
+            val2 = '귀인두관';
+            break;
+          case 29:
+            val = '소리 -> 귓바퀴 -> 외이도 -> (&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;) ->(&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;)-> 달팽이관(청각세포) -> 청각신경 -> 대뇌';
+            val2 = '고막, 귓속뼈';
+            break;
+          case 30:
+            val = '물체에서 나온 빛은 ( ㄱㅁ )을 지나 눈으로 들어와 ( ㅅㅈㅊ )를 통과하면서 ( ㅁㅁ )에 상을 맺는다.';
+            val2 = '고막, 수정체, 망막';
+            break;
+          case 31:
+            val = '동공이 커지면 들어오는 빛의 양 (증가, 감소)';
+            val2 = '증가';
+            break;
+          case 32:
+            val = '동공이 작아지면 들어오는 빛의 양(증가, 감소)';
+            val2 = '감소';
+            break;
+          case 33:
+            val = '소리를 모으는 것은?';
+            val2 = '귓바퀴';
+            break;
+          case 34:
+            val = '기울어짐을 느낀다.';
+            val2 = '전정기관';
+            break;
+          case 35:
+            val = '회전을 느낀다.';
+            val2 = '반고리관';
+            break;
+          case 36:
+            val = '평형감각은 평형감각신경을 통해 소뇌로 전달된다. (o,x)';
+            val2 = 'O';
+            break;
+          case 37:
+            val = '반고리관에서 회전을 느끼게 된다. (o,x)';
+            val2 = 'O';
+            break;
+          case 38:
+            val = '반고리관에 이석이 있다. (o,x)';
+            val2 = 'X';
+            break;
+          case 39:
+            val = '전정기관에 이석이 있다. (o,x)';
+            val2 = 'O';
+            break;
+        }
+          break;
+        case 2: //하
+          switch(rand) {
+            case 0:
+              val = '귓바퀴는 소리를 모은다. (o,x)';
+              val2 = 'O';
+              break;
+            case 1:
+              val = '고막은 소리 자극을 받아 진동한다.  (o,x)';
+              val2 = 'O';
+              break;
+            case 2:
+              val = '귓속뼈는 고막의 진동을 증폭한다. (o,x)';
+              val2 = 'O';
+              break;
+            case 3:
+              val = '귀인두관은 고막 안쪽과 바깥쪽의 압력을 같게 조절한다. (o,x)';
+              val2 = 'O';
+              break;
+            case 4:
+              val = '달팽이관에는 청각세포가 존재한다.  (o,x)';
+              val2 = 'O';
+              break;
+            case 5:
+              val = '반고리관은 회전감각을 감지한다. (o,x)';
+              val2 = 'O';
+              break;
+            case 6:
+              val = '전정기관은 몸의 기울어짐을 감지한다.  (o,x)';
+              val2 = 'O';
+              break;
+            case 7:
+              val = '청각세포에서 받아드린 자극은 소뇌로 전달한다.  (o,x)';
+              val2 = 'X';
+              break;
+            case 8:
+              val = '눈의 가장 바깥을 싸고 있는 막은 공막이다.  (o,x)';
+              val2 = 'O';
+              break;
+            case 9:
+              val = '홍채의 바깥을 감싸는 투명한 막은 각막이다.  (o,x)';
+              val2 = 'O';
+              break;
+            case 10:
+              val = '홍채는 동공의 크기를 조절하여 눈으로 들어오는 빛의 양을 조절한다.  (o,x)';
+              val2 = 'O';
+              break;
+            case 11:
+              val = '수정체는 오목 렌즈 모양으로 빛을 굴절시켜 망막에 상이 맺히게 한다.  (o,x)';
+              val2 = 'X';
+              break;
+            case 12:
+              val = '망막은 검은색 색소가 있어 눈 속을 어둡게 한다.  (o,x)';
+              val2 = 'X';
+              break;
+            case 13:
+              val = '황반은 시각 신경이 모여 나가는 부분이다.  (o,x)';
+              val2 = 'X';
+              break;
+            case 14:
+              val = '맹점은 시각 세포가 없어 상이 맺히더라도 볼 수 없다.  (o,x)';
+              val2 = 'O';
+              break;
+            case 15:
+              val = '맹점은 시각세포가 많이 모인 부분이다.  (o,x)';
+              val2 = 'X';
+              break;
+            case 16:
+              val = '근시는 상이 망막 앞에 맺혀 잘 보이지 않는다.  (o,x)';
+              val2 = 'O';
+              break;
+            case 17:
+              val = '원시는 상이 망막 뒤에 맺혀 잘 보이지 않는다.  (o,x)';
+              val2 = 'O.';
+              break;
+            case 18:
+              val = '근시는 오목렌즈를 이용하여 교정함.  (o,x)';
+              val2 = 'O.';
+              break;
+            case 19:
+              val = '원시는 볼록렌즈를 이용하여 교정함.  (o,x)';
+              val2 = 'O.';
+              break;
+            case 20:
+              val = '나이가 들어 수정체의 탄력이 약해지면 노안이 된다.  (o,x)';
+              val2 = 'O.';
+              break;
+            case 21:
+              val = '물체와의 거리가 가까울 때 수정체는 두꺼워진다.  (o,x)';
+              val2 = 'O';
+              break;
+            case 22:
+              val = '물체와의 거리가 멀 때 수정체는 얇아진다.  (o,x)';
+              val2 = 'O';
+              break;
+            case 23:
+              val = '어두운 방에서 밝은 밖으로 나가면 홍채의 면적은 좁아진다.  (o,x)';
+              val2 = 'X';
+              break;
+            case 24:
+              val = '밝은 곳에서 어두은 곳으로 들어오면 동공의 크기는 커진다.  (o,x)';
+              val2 = 'O';
+              break;
+            case 25:
+              val = '시각의 형성은 (대뇌, 소뇌) 이다.';
+              val2 = '대뇌';
+              break;
+            case 26:
+              val = '청각의 형성은 (대뇌, 소뇌)이다.';
+              val2 = '대뇌';
+              break;
+            case 27:
+              val = '회전감각의 형성은 (대뇌, 소뇌)이다.';
+              val2 = '소뇌';
+              break;
+            case 28:
+              val = '위치감각의 형성은 (대뇌, 소뇌)이다.';
+              val2 = '소뇌';
+              break;
+            case 29:
+              val = '사람의 감각은 (&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;), (&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;), 후각, 미각, 피부감각이 있다.';
+              val2 = '시각, 청각';
+              break;
+          }
+          break;
+      }
+      if ( rand_diff == 0 )
+        document.write('<h2 class = "gray">[난이도:상]<br></h2><h1>' + val + '<br></h1>');
+      else if ( rand_diff == 1 )
+        document.write('<h2 class = "gray">[난이도:중]<br></h2><h1>' + val + '<br></h1>');
+      else if ( rand_diff == 2 )
+        document.write('<h2 class = "gray">[난이도:하]<br></h2><h1>' + val + '<br></h1>');
+      else
+        document.write('아무래도 버그인가 봅니다. ;ㅅ;');
+
+      console.log("정답: "+val2)
+    }
+    function open() {
+      if ( rand_diff == 0 )
+        document.write('<h2 class = "gray">[난이도:상]<br></h2><h1>정답:' + val2 + '<br></h1>');
+      else if ( rand_diff == 1 )
+        document.write('<h2 class = "gray">[난이도:중]<br></h2><h1>정답:' + val2 + '<br></h1>');
+      else if ( rand_diff == 2 )
+        document.write('<h2 class = "gray">[난이도:하]<br></h2><h1>정답:' + val2 + '<br></h1>');
+      else
+        document.write('아무래도 버그인가 봅니다. ;ㅅ;');
+    }
+    function change() {
+      const subs = document.getElementById('subscriberBtn');
+      subs.innerText = "정답:"+val2
+    }
+  </script>
+  </head>
+  <body>
+    <script>
+      make()
+    </script>
+    <h3><br><br><br><br>F5로 질문 바꾸기<br></h3>
+    <h5><br><br><br><br><br><br>선생님, 저는 HTML, CSS, JS는 잘 모릅니다.</h5>
+    <!--<input type="image" src="next_bt.png" class = "bt1" onclick="open()"> </input>-->
+  </body>
+
+</html>

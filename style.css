@@ -1,0 +1,16 @@
+.bt1 {
+  position: relative;
+  top:500px;
+  left:750px;
+}
+.text {
+  position: relative;
+  top:0px;
+  left:0px;
+}
+.gray {
+  color:#888888;
+}
+.chco {
+  color:#000000;
+}
